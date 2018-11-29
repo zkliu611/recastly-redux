@@ -3,8 +3,8 @@ import Search from './../components/Search.js';
 import { connect } from 'react-redux';
 import handleSearchChange from '../actions/search.js';
 
-var mapStateToProps = (state) => {
-    return;
+var mapStateToProps = (state = {}) => {
+    return state;
 }
 
 var mapDispatchToProps = (dispatch) => {
