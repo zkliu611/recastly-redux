@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import handleSearchChange from '../actions/search.js';
 
 var mapStateToProps = (state) => {
-    return state;
+    return;
 }
 
 var mapDispatchToProps = (dispatch) => {
